@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: DistortionM
-  m_Shader: {fileID: 4800000, guid: 2a204bf6dcaf419448fa0de69bfd2527, type: 3}
+  m_Name: FishEyeM
+  m_Shader: {fileID: 4800000, guid: 2c6dd6c2fc2ddf240a9daa0abc59ed8f, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
@@ -37,10 +37,6 @@ Material:
         m_Offset: {x: 0, y: 0}
     - _DetailNormalMap:
         m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _DistortTex:
-        m_Texture: {fileID: 2800000, guid: 980bc38e3b495a84f8348f971a681a27, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _EmissionMap:
@@ -78,14 +74,12 @@ Material:
     - _CenterY: 0.1
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
-    - _DistortAmount: 0.35
-    - _DistortTexXSpeed: 0.1
-    - _DistortTexYSpeed: 0.1
     - _DstBlend: 0
     - _FadeAmount: 0.33
     - _FadeBurnGlow: 10
     - _FadeBurnTransition: 0.1
     - _FadeBurnWidth: 1
+    - _FishEyeUvAmount: 0.333
     - _GhostBlend: 0.642
     - _GhostColorBoost: 2.28
     - _GhostTransparency: 0

@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: FillAmountM
-  m_Shader: {fileID: 4800000, guid: 89de43889fc879e4aa2909c73e602417, type: 3}
+  m_Name: PinchM
+  m_Shader: {fileID: 4800000, guid: 00d9ce4ccda81404383538c40d1f77ab, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
@@ -70,10 +70,8 @@ Material:
     m_Ints: []
     m_Floats:
     - _BumpScale: 1
-    - _ClipUvDown: 0
-    - _ClipUvLeft: 0.319
-    - _ClipUvRight: 0.525
-    - _ClipUvUp: 0.384
+    - _CenterX: 0.5
+    - _CenterY: 0.1
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
@@ -81,23 +79,36 @@ Material:
     - _FadeBurnGlow: 10
     - _FadeBurnTransition: 0.1
     - _FadeBurnWidth: 1
+    - _FishEyeUvAmount: 0.35
     - _GhostBlend: 0.642
     - _GhostColorBoost: 2.28
     - _GhostTransparency: 0
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
+    - _GrassManualAnim: -1
+    - _GrassRadialBend: 0.26
+    - _GrassSpeed: 1.26
+    - _GrassWind: 10.4
     - _HandDrawnAmount: 10
     - _HandDrawnSpeed: 17.6
     - _Metallic: 0
     - _Mode: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.02
+    - _PinchUvAmount: 0.104
+    - _RoundWaveSpeed: 2
+    - _RoundWaveStrength: 0.7
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _Speed: 5
     - _SrcBlend: 1
     - _UVSec: 0
+    - _WaveAmount: 7
+    - _WaveSpeed: 10
+    - _WaveStrength: 7.5
+    - _WaveX: 0.444
+    - _WaveY: 0
     - _ZWrite: 1
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}

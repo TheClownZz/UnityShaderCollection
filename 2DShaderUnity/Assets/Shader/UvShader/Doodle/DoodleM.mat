@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: RotateM
+  m_Name: DoodleM
   m_Shader: {fileID: 4800000, guid: cb369a5eb0cf30b43b6f921868f2235a, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -90,7 +90,7 @@ Material:
     - _GrassSpeed: 1.26
     - _GrassWind: 10.4
     - _HandDrawnAmount: 10
-    - _HandDrawnSpeed: 17.6
+    - _HandDrawnSpeed: 1
     - _Metallic: 0
     - _Mode: 0
     - _OcclusionStrength: 1

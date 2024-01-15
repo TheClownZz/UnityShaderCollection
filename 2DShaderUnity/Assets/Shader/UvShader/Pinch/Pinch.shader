@@ -4,7 +4,7 @@ Shader "Custom/Uv/Pinch"
     {
         [HideInInspector] _MainTex ("Texture", 2D) = "white" { }
         
-        _PinchUvAmount ("Pinch Amount", Range(0, 0.5)) = 0.35
+        _PinchUvAmount ("Pinch Amount", Range(0, 1)) = 0.35
     }
 
     SubShader
