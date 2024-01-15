@@ -1,1 +1,3 @@
-# 2DShaderUnity
+#  Shader Unity
+
+Some simple Shader in Unity
