@@ -69,6 +69,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - _Amount: 0.001
     - _BumpScale: 1
     - _CenterX: 0.5
     - _CenterY: 0.1
@@ -96,7 +97,7 @@ Material:
     - _Mode: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.02
-    - _PinchUvAmount: 0.104
+    - _PinchUvAmount: 0.026
     - _RoundWaveSpeed: 2
     - _RoundWaveStrength: 0.7
     - _SmoothnessTextureChannel: 0

@@ -90,8 +90,8 @@ Material:
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
-    - _GlitchAmount: 9.7
-    - _GlitchSize: 2.33
+    - _GlitchAmount: 9.31
+    - _GlitchSize: 2.2
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1

@@ -72,7 +72,7 @@ Material:
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
-    - _GradBlend: 0.857
+    - _GradBlend: 0.92
     - _GradBoostX: 1.2
     - _GradBoostY: 1.03
     - _InnerOutlineAlpha: 0.536

@@ -99,7 +99,7 @@ Material:
     - _PinchUvAmount: 0.142
     - _RoundWaveSpeed: 2
     - _RoundWaveStrength: 0.7
-    - _ShakeUvSpeed: 2.5
+    - _ShakeUvSpeed: 2
     - _ShakeUvX: 1.5
     - _ShakeUvY: 1
     - _SmoothnessTextureChannel: 0

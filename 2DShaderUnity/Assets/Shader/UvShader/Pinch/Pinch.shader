@@ -4,7 +4,7 @@ Shader "Custom/Uv/Pinch"
     {
         [HideInInspector] _MainTex ("Texture", 2D) = "white" { }
         
-        _PinchUvAmount ("Pinch Amount", Range(0, 1)) = 0.35
+        _Amount ("Amount", Range(0, 1)) = 0.35
     }
 
     SubShader
@@ -29,7 +29,7 @@ Shader "Custom/Uv/Pinch"
             sampler2D _MainTex;
             float4 _MainTex_ST;
 
-            half _PinchUvAmount;
+            half _Amount;
 
             struct appdata
             {
@@ -60,7 +60,7 @@ Shader "Custom/Uv/Pinch"
                 half2 center = half2(0.5, 0.5);
                 half2 centerTiled = half2(center.x * _MainTex_ST.x, center.y * _MainTex_ST.y);
                 half2 dP = i.uv - centerTiled;
-                half pinchInt = (3.141592 / length(centerTiled)) * (-_PinchUvAmount + 0.001);
+                half pinchInt = (3.141592 / length(centerTiled)) * (-_Amount + 0.001);
                 i.uv = centerTiled + normalize(dP) * atan(length(dP) * - pinchInt * 10.0) * 0.5 / atan(-pinchInt * 5);
 
                 fixed4 col = tex2D(_MainTex, i.uv);

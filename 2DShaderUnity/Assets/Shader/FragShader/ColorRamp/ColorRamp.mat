@@ -78,8 +78,8 @@ Material:
     m_Ints: []
     m_Floats:
     - _BumpScale: 1
-    - _ColorRampBlend: 1
-    - _ColorRampLuminosity: 0.08
+    - _ColorRampBlend: 0.406
+    - _ColorRampLuminosity: 0.313
     - _ColorRampOutline: 0
     - _ColorSwapBlend: 0.75
     - _ColorSwapBlueLuminosity: 1

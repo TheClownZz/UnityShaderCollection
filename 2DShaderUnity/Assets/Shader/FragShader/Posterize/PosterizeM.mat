@@ -84,7 +84,7 @@ Material:
     - _OcclusionStrength: 1
     - _Parallax: 0.02
     - _PosterizeGamma: 3.26
-    - _PosterizeNumColors: 9
+    - _PosterizeNumColors: 8.8
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1

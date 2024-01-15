@@ -4,8 +4,8 @@ Shader "Custom/Uv/Doodle"
     {
         [HideInInspector] _MainTex ("Texture", 2D) = "white" { }
         
-        _HandDrawnAmount ("Hand Drawn Amount", Range(0, 20)) = 10
-        _HandDrawnSpeed ("Hand Drawn Speed", Range(1, 30)) = 5
+        _Amount ("Hand Drawn Amount", Range(0, 20)) = 10
+        _Speed ("Hand Drawn Speed", Range(0, 5)) = 2
     }
 
     SubShader
@@ -30,7 +30,7 @@ Shader "Custom/Uv/Doodle"
             sampler2D _MainTex;
             float4 _MainTex_ST;
 
-            half _HandDrawnAmount, _HandDrawnSpeed;
+            half _Amount, _Speed;
 
             struct appdata
             {
@@ -49,6 +49,7 @@ Shader "Custom/Uv/Doodle"
             v2f vert(appdata v)
             {
                 v2f o;
+                
                 o.position = UnityObjectToClipPos(v.vertex);
                 o.uv = TRANSFORM_TEX(v.uv, _MainTex);
 
@@ -59,10 +60,10 @@ Shader "Custom/Uv/Doodle"
             fixed4 frag(v2f i) : SV_TARGET
             {
                 half2 uvCopy = i.uv;
-                _HandDrawnSpeed = (floor(_Time.y * 20 * _HandDrawnSpeed) / _HandDrawnSpeed) * _HandDrawnSpeed;
-                uvCopy.x = sin(uvCopy.x * _HandDrawnAmount + _HandDrawnSpeed);
-                uvCopy.y = cos(uvCopy.y * _HandDrawnAmount + _HandDrawnSpeed);
-                i.uv = lerp(i.uv, i.uv + uvCopy, 0.0005 * _HandDrawnAmount);
+                _Speed = (floor(_Time.y * 20 * _Speed) / _Speed) * _Speed;
+                uvCopy.x = sin(uvCopy.x * _Amount + _Speed);
+                uvCopy.y = cos(uvCopy.y * _Amount + _Speed);
+                i.uv = lerp(i.uv, i.uv + uvCopy, 0.0005 * _Amount);
                 fixed4 col = tex2D(_MainTex, i.uv);
                 col *= i.color;
 

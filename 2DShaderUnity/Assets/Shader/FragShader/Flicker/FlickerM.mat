@@ -77,9 +77,9 @@ Material:
     - _FadeBurnGlow: 10
     - _FadeBurnTransition: 0.1
     - _FadeBurnWidth: 1
-    - _FlickerAlpha: 0.21
-    - _FlickerFreq: 1.49
-    - _FlickerPercent: 0.283
+    - _FlickerAlpha: 0.2
+    - _FlickerFreq: 0.5
+    - _FlickerPercent: 0.273
     - _GhostBlend: 0.338
     - _GhostColorBoost: 2.67
     - _GhostTransparency: 0.288

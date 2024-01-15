@@ -3,8 +3,8 @@ Shader "Custom/Uv/RoundWave"
     Properties
     {
         [HideInInspector] _MainTex ("Texture", 2D) = "white" { }
-        _RoundWaveStrength ("Wave Strength", Range(0, 1)) = 0.7
-        _RoundWaveSpeed ("Wave Speed", Range(0, 5)) = 2
+        _Strength ("Strength", Range(0, 1)) = 0.7
+        _Speed ("Speed", Range(0, 5)) = 2
     }
 
     SubShader
@@ -28,7 +28,7 @@ Shader "Custom/Uv/RoundWave"
 
             sampler2D _MainTex;
             float4 _MainTex_ST,_MainTex_TexelSize;
-            half _RoundWaveStrength, _RoundWaveSpeed;
+            half _Strength, _Speed;
 
             struct appdata
             {
@@ -59,7 +59,7 @@ Shader "Custom/Uv/RoundWave"
                 half xWave = ((0.5 * _MainTex_ST.x) - i.uv.x);
                 half yWave = ((0.5 * _MainTex_ST.y) - i.uv.y) * (_MainTex_TexelSize.w / _MainTex_TexelSize.z);
                 half ripple = -sqrt(xWave * xWave + yWave * yWave);
-                i.uv += (sin((ripple + _Time.y * (_RoundWaveSpeed / 10.0)) / 0.015) * (_RoundWaveStrength / 10.0)) % 1;
+                i.uv += (sin((ripple + _Time.y * (_Speed / 10.0)) / 0.015) * (_Strength / 10.0)) % 1;
 
                 fixed4 col = tex2D(_MainTex, i.uv);
                 col *= i.color;

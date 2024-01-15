@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: TwistM
-  m_Shader: {fileID: 4800000, guid: 1c405f34c0b49a248b0cede85ea80f3d, type: 3}
+  m_Shader: {fileID: 4800000, guid: 90e6ed5162d75644babbc3dd5a78c9f4, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
@@ -94,10 +94,10 @@ Material:
     - _SpecularHighlights: 1
     - _Speed: 5
     - _SrcBlend: 1
-    - _TwistUvAmount: 2.98
-    - _TwistUvPosX: 0.5
-    - _TwistUvPosY: 0.5
-    - _TwistUvRadius: 0.5
+    - _TwistUvAmount: 0
+    - _TwistUvPosX: 0.45
+    - _TwistUvPosY: 0.375
+    - _TwistUvRadius: 0.24
     - _UVSec: 0
     - _WaveAmount: 7
     - _WaveSpeed: 10

@@ -49,7 +49,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _GlowTex:
-        m_Texture: {fileID: 2800000, guid: e2648c9cb218d8644abcb89adf59da30, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
@@ -80,8 +80,8 @@ Material:
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
-    - _Glow: 1
-    - _GlowGlobal: 1.5
+    - _Glow: 6
+    - _GlowGlobal: 5
     - _Keyword: 1
     - _Metallic: 0
     - _Mode: 0

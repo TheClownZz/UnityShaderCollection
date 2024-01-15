@@ -78,8 +78,8 @@ Material:
     - _CenterY: 0.1
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
-    - _DistortAmount: 0.721
-    - _DistortTexXSpeed: -0.017
+    - _DistortAmount: 1.511
+    - _DistortTexXSpeed: 0.1
     - _DistortTexYSpeed: 0.1
     - _DstBlend: 0
     - _FadeAmount: 0.33

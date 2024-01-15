@@ -90,9 +90,9 @@ Material:
     - _Mode: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.02
-    - _ShadowAlpha: 0.609
-    - _ShadowX: 0.173
-    - _ShadowY: -0.108
+    - _ShadowAlpha: 0.639
+    - _ShadowX: 0.081
+    - _ShadowY: 0.004
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1

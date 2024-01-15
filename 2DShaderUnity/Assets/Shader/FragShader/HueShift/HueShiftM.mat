@@ -76,9 +76,9 @@ Material:
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
-    - _HsvBright: 1.39
-    - _HsvSaturation: 1
-    - _HsvShift: 155
+    - _HsvBright: 1.045
+    - _HsvSaturation: 1.026
+    - _HsvShift: 122
     - _Metallic: 0
     - _Mode: 0
     - _OcclusionStrength: 1

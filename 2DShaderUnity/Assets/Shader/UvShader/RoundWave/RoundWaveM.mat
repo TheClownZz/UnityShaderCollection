@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: RoundWaveM
-  m_Shader: {fileID: 4800000, guid: cb369a5eb0cf30b43b6f921868f2235a, type: 3}
+  m_Shader: {fileID: 4800000, guid: f89cf4c016e2ad343810d81a3c9d7712, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
@@ -89,10 +89,13 @@ Material:
     - _Mode: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.02
+    - _RoundWaveSpeed: 1.41
+    - _RoundWaveStrength: 0.186
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
-    - _Speed: 5
+    - _Speed: 2
     - _SrcBlend: 1
+    - _Strength: 0
     - _UVSec: 0
     - _ZWrite: 1
     m_Colors:

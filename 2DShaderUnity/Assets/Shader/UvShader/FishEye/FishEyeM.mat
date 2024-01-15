@@ -79,7 +79,7 @@ Material:
     - _FadeBurnGlow: 10
     - _FadeBurnTransition: 0.1
     - _FadeBurnWidth: 1
-    - _FishEyeUvAmount: 0.333
+    - _FishEyeUvAmount: 0.088
     - _GhostBlend: 0.642
     - _GhostColorBoost: 2.28
     - _GhostTransparency: 0

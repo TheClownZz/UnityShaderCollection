@@ -83,12 +83,12 @@ Material:
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
-    - _HologramBlend: 0.697
-    - _HologramMaxAlpha: 0.75
-    - _HologramMinAlpha: 0.166
-    - _HologramStripesAmount: 0.075
-    - _HologramStripesSpeed: 2.1
-    - _HologramUnmodAmount: 0
+    - _HologramBlend: 0.036
+    - _HologramMaxAlpha: 39.1
+    - _HologramMinAlpha: 0
+    - _HologramStripesAmount: 0.1
+    - _HologramStripesSpeed: 10
+    - _HologramUnmodAmount: 0.308
     - _Metallic: 0
     - _Mode: 0
     - _OcclusionStrength: 1

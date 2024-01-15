@@ -94,10 +94,10 @@ Material:
     - _Speed: 5
     - _SrcBlend: 1
     - _UVSec: 0
-    - _WaveAmount: 7
-    - _WaveSpeed: 10
-    - _WaveStrength: 7.5
-    - _WaveX: 0
+    - _WaveAmount: 10
+    - _WaveSpeed: 15
+    - _WaveStrength: 9.4
+    - _WaveX: 1
     - _WaveY: 0.5
     - _ZWrite: 1
     m_Colors:

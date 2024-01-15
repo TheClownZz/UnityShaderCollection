@@ -87,7 +87,7 @@ Material:
     - _GlossyReflections: 1
     - _GrassManualAnim: 1
     - _GrassRadialBend: 0.1
-    - _GrassSpeed: 1.98
+    - _GrassSpeed: 5
     - _GrassWind: 4.7
     - _HandDrawnAmount: 10
     - _HandDrawnSpeed: 17.6

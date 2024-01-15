@@ -69,6 +69,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - _Amount: 10
     - _BumpScale: 1
     - _CenterX: 0.5
     - _CenterY: 0.1
@@ -89,7 +90,7 @@ Material:
     - _GrassRadialBend: 0.26
     - _GrassSpeed: 1.26
     - _GrassWind: 10.4
-    - _HandDrawnAmount: 10
+    - _HandDrawnAmount: 15.42
     - _HandDrawnSpeed: 1
     - _Metallic: 0
     - _Mode: 0

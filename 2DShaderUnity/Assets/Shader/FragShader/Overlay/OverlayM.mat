@@ -11,7 +11,8 @@ Material:
   m_Shader: {fileID: 4800000, guid: eb81db253cb0acd4485762baa38054f6, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
-  m_ValidKeywords: []
+  m_ValidKeywords:
+  - OVERLAYMULT_ON
   m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -64,7 +65,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _OverlayTex:
-        m_Texture: {fileID: 2800000, guid: 6c907930108907946a5ecb10e70c4aac, type: 3}
+        m_Texture: {fileID: 2800000, guid: bcd2d511f82b2574691bc32e32bbde52, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _ParallaxMap:
@@ -92,8 +93,8 @@ Material:
     - _Metallic: 0
     - _Mode: 0
     - _OcclusionStrength: 1
-    - _OverlayBlend: 1
-    - _OverlayGlow: 1
+    - _OverlayBlend: 0.449
+    - _OverlayGlow: 1.6
     - _Parallax: 0.02
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
